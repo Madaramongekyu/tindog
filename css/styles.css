@@ -1,0 +1,133 @@
+/*          Font color -->   WHITE                                              */
+
+#title,.navbar-brand,.icon1,#cta{
+  color: white;
+}
+
+/*       Background Color --> BLACK        */
+
+.black{
+    background-color: #000000;
+}
+/*   Text Alignment  -->  CENTER                                                */
+
+.center{
+    text-align: center;
+}
+
+/* navbar */
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+  width: 34%;
+  transform: rotate(12deg);
+  padding-left: 14%;
+  position: absolute;
+  left: 47%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+/*   Symboloic Icons   --> right-click(i1), bullseye(i2) & Heart(i3)            */
+.i1,.i2,.i3{
+  color:black;
+}
+
+/*   Symboloic Icons   --> Facebook(i4), Twitter(i4), Instagram(i5), Email(i6)  */
+
+.i1,.i2,.i3,.i4,.i5,.i6{
+  padding: 20px;
+}
+.i1:hover,.i4:hover {
+  color: #008abf;
+}
+
+.i2:hover,.i5:hover {
+  color: red;
+}
+
+.i3:hover {
+  color: green;
+}
+
+ /* Testimonials */
+
+#testimonials {
+  color: #F5F5F5;
+  margin: 3% 20%;
+  border-radius: 55px;
+}
+
+.carousel-item {
+  padding: 5% 10%;
+}
+
+.test-image {
+  border-radius: 100%;
+  width: 40%;
+  margin: 20px;
+}
+
+/*          SECTION   -->  Pricing                                              */
+
+.pricing-column {
+  padding: 3% 7%;
+}
+
+/*          SECTION   -->  Downloading                                          */
+#cta {
+  padding: 6% 25%;
+  margin-bottom: 6%;
+}
+
+
+
+/*                          MEDIA                                               */
+@media (max-width:991px) {
+  .title-image {
+    padding-left: 0px;
+    width: 46%;
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width:889px) {
+  .em2 {
+    position: absolute;
+    bottom: 10px;
+    right: 25%;
+  }
+
+  @media (max-width:763px) {
+    .em1 {
+      position: absolute;
+      bottom: 10px;
+      right: 27%;
+    }
+
+    @media (min-width:1000px) {
+      .carousel-indicators {
+        position: absolute;
+        bottom: 30px;
+      }
+    }
